@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Solutions - TARA | Solutions Numériques Africaines</title>
+    <meta name="description" content="Découvrez les solutions innovantes développées par TARA pour répondre aux défis africains : TaraOS, TaraMap, TaraAI et bien d'autres.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>TARA</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Accueil</a></li>
+                <li><a href="about.html" class="nav-link">À propos</a></li>
+                <li><a href="solutions.html" class="nav-link">Solutions</a></li>
+                <li><a href="join.html" class="nav-link">Rejoignez-nous</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Hero Solutions -->
+    <section class="hero-solutions">
+        <div class="container">
+            <div class="hero-solutions-content">
+                <h1>Nos solutions technologiques</h1>
+                <p>Conçues pour les réalités africaines, par des Africains</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets actuels -->
+    <section class="current-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Projets Phares</h2>
+                <p>Des solutions innovantes pour transformer l'Afrique</p>
+            </div>
+            <div class="projects-tabs">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="taraos">TaraOS</button>
+                    <button class="tab-btn" data-tab="taramap">TaraMap</button>
+                    <button class="tab-btn" data-tab="taraai">TaraAI</button>
+                    <button class="tab-btn" data-tab="tarapay">TaraPay</button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab-pane active" id="taraos">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h3>TaraOS</h3>
+                                <p class="project-status"><span class="status-badge in-progress"></span> En développement</p>
+                                <p>Système d'exploitation léger et sécurisé spécialement conçu pour les appareils à ressources limitées, optimisé pour les connexions internet instables et disponible dans plusieurs langues africaines.</p>
+                                <ul class="project-features">
+                                    <li><i class="fas fa-check-circle"></i> Interface utilisateur intuitive adaptée aux néophytes</li>
+                                    <li><i class="fas fa-check-circle"></i> Consommation mémoire réduite (moins de 500MB)</li>
+                                    <li><i class="fas fa-check-circle"></i> Intégration native de services africains</li>
+                                    <li><i class="fas fa-check-circle"></i> Compatibilité avec les anciens appareils</li>
+                                </ul>
+                                <div class="project-actions">
+                                    <a href="#" class="btn btn-primary">Voir la démo</a>
+                                    <a href="https://github.com/tara-tech/taraos" class="btn btn-outline" target="_blank">
+                                        <i class="fab fa-github"></i> Code source
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-visual">
+                                <img src="assets/taraos-screenshot.png" alt="Capture d'écran TaraOS" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="taramap">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h3>TaraMap</h3>
+                                <p class="project-status"><span class="status-badge beta"></span> Version Beta</p>
+                                <p>Service de cartographie et de navigation conçu pour les villes africaines, avec des données précises sur les routes, les transports en commun et les points d'intérêt locaux.</p>
+                                <ul class="project-features">
+                                    <li><i class="fas fa-check-circle"></i> Cartes hors ligne téléchargeables</li>
+                                    <li><i class="fas fa-check-circle"></i> Navigation optimisée pour les motos-taxis</li>
+                                    <li><i class="fas fa-check-circle"></i> Points d'intérêt culturels et pratiques</li>
+                                    <li><i class="fas fa-check-circle"></i> Alertes en temps réel (embouteillages, travaux)</li>
+                                </ul>
+                                <div class="project-actions">
+                                    <a href="#" class="btn btn-primary">Essayer la beta</a>
+                                    <a href="#" class="btn btn-outline">Contribuer aux données</a>
+                                </div>
+                            </div>
+                            <div class="project-visual">
+                                <img src="assets/taramap-screenshot.png" alt="Capture d'écran TaraMap" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="taraai">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h3>TaraAI</h3>
+                                <p class="project-status"><span class="status-badge concept"></span> En conception</p>
+                                <p>Suite d'intelligence artificielle entraînée sur des données africaines, capable de comprendre les langues locales, les contextes culturels et les besoins spécifiques du continent.</p>
+                                <ul class="project-features">
+                                    <li><i class="fas fa-check-circle"></i> Reconnaissance vocale multilingue</li>
+                                    <li><i class="fas fa-check-circle"></i> Traduction entre langues africaines</li>
+                                    <li><i class="fas fa-check-circle"></i> Assistance virtuelle contextuelle</li>
+                                    <li><i class="fas fa-check-circle"></i> Algorithmes éthiques et transparents</li>
+                                </ul>
+                                <div class="project-actions">
+                                    <a href="#" class="btn btn-primary">Voir le roadmap</a>
+                                    <a href="#" class="btn btn-outline">Participer à la recherche</a>
+                                </div>
+                            </div>
+                            <div class="project-visual">
+                                <img src="assets/taraai-screenshot.png" alt="Capture d'écran TaraAI" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tarapay">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h3>TaraPay</h3>
+                                <p class="project-status"><span class="status-badge in-progress"></span> En développement</p>
+                                <p>Solution de paiement unifiée pour les marchés africains, permettant des transactions sécurisées entre différents systèmes et pays, avec des frais minimes.</p>
+                                <ul class="project-features">
+                                    <li><i class="fas fa-check-circle"></i> Interopérabilité entre systèmes</li>
+                                    <li><i class="fas fa-check-circle"></i> Paiements hors ligne possibles</li>
+                                    <li><i class="fas fa-check-circle"></i> Support des devises locales</li>
+                                    <li><i class="fas fa-check-circle"></i> Intégration avec les services existants</li>
+                                </ul>
+                                <div class="project-actions">
+                                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                                    <a href="#" class="btn btn-outline">Devenir partenaire</a>
+                                </div>
+                            </div>
+                            <div class="project-visual">
+                                <img src="assets/tarapay-screenshot.png" alt="Capture d'écran TaraPay" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies utilisées -->
+    <section class="technologies">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technologies Utilisées</h2>
+                <p>Nous utilisons les meilleurs outils, combinés à notre expertise africaine</p>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <h3>Open Source</h3>
+                    <p>Tous nos projets sont construits sur des technologies open source que nous contribuons à améliorer.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Africain</h3>
+                    <p>Nos serveurs sont hébergés en Afrique pour une meilleure latence et souveraineté des données.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile First</h3>
+                    <p>Toutes nos solutions sont optimisées pour les smartphones, l'appareil le plus utilisé en Afrique.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Multilingue</h3>
+                    <p>Nos interfaces supportent les langues africaines majeures ainsi que les langues coloniales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Démonstrations -->
+    <section class="demos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Aperçu de Nos Solutions</h2>
+            </div>
+            <div class="demo-video">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/example" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="demo-features">
+                    <h3>Découvrez TARA en action</h3>
+                    <p>Cette vidéo de démonstration présente les principales fonctionnalités de nos solutions et comment elles répondent aux besoins spécifiques des utilisateurs africains.</p>
+                    <ul>
+                        <li><i class="fas fa-play-circle"></i> 5 minutes de démonstration</li>
+                        <li><i class="fas fa-closed-captioning"></i> Sous-titres disponibles</li>
+                        <li><i class="fas fa-download"></i> Téléchargement possible</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section class="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2>Notre Feuille de Route</h2>
+                <p>Découvrez nos prochaines étapes et comment contribuer</p>
+            </div>
+            <div class="roadmap-container">
+                <div class="roadmap-item">
+                    <div class="roadmap-phase">
+                        <h3>Phase 1</h3>
+                        <span class="roadmap-date">2023-2024</span>
+                    </div>
+                    <div class="roadmap-content">
+                        <h4>Développement des produits de base</h4>
+                        <ul>
+                            <li>Version stable de TaraOS</li>
+                            <li>Déploiement de TaraMap dans 5 pays</li>
+                            <li>Première version de TaraAI</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-phase">
+                        <h3>Phase 2</h3>
+                        <span class="roadmap-date">2024-2025</span>
+                    </div>
+                    <div class="roadmap-content">
+                        <h4>Expansion et intégration</h4>
+                        <ul>
+                            <li>Interconnexion des solutions TARA</li>
+                            <li>Partenariats avec gouvernements</li>
+                            <li>Formation de 10 000 développeurs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="roadmap-item">
+                    <div class="roadmap-phase">
+                        <h3>Phase 3</h3>
+                        <span class="roadmap-date">2025+</span>
+                    </div>
+                    <div class="roadmap-content">
+                        <h4>Écosystème complet</h4>
+                        <ul>
+                            <li>Marketplace d'applications africaines</li>
+                            <li>Infrastructure cloud panafricaine</li>
+                            <li>Standard technologique continental</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="roadmap-cta">
+                <p>Notre feuille de route est ouverte et collaborative. Consultez notre dépôt GitHub pour voir comment contribuer.</p>
+                <a href="https://github.com/tara-tech" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-github"></i> Voir sur GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TARA</h3>
+                    <p>Solutions numériques innovantes pour l'Afrique de demain.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="join.html">Carrières</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> hello@tara.ci</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Grand-Bassam, Côte d'Ivoire</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Restez informé de nos dernières innovations</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit" class="btn btn-primary">S'abonner</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TARA. Tous droits réservés. | Made with ❤️ in Côte d'Ivoire</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

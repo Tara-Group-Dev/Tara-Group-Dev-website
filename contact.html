@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TARA | Solutions Numériques Africaines</title>
+    <meta name="description" content="Contactez l'équipe TARA pour toute question, partenariat ou demande d'information. Nous sommes basés à Grand-Bassam, Côte d'Ivoire.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>TARA</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Accueil</a></li>
+                <li><a href="about.html" class="nav-link">À propos</a></li>
+                <li><a href="solutions.html" class="nav-link">Solutions</a></li>
+                <li><a href="join.html" class="nav-link">Rejoignez-nous</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Hero Contact -->
+    <section class="hero-contact">
+        <div class="container">
+            <div class="hero-contact-content">
+                <h1>Contactez-nous</h1>
+                <p>Une question, un partenariat ou simplement envie d'échanger ? Nous sommes à votre écoute.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Grid -->
+    <section class="contact-grid">
+        <div class="container">
+            <div class="grid-container">
+                <div class="contact-form-container">
+                    <h2>Envoyez-nous un message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom complet *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Sélectionnez un sujet</option>
+                                <option value="info">Demande d'information</option>
+                                <option value="partnership">Partenariat</option>
+                                <option value="press">Presse</option>
+                                <option value="support">Support technique</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    </form>
+                </div>
+                <div class="contact-info-container">
+                    <div class="contact-info">
+                        <h2>Nos coordonnées</h2>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Email</h3>
+                                <p>hello@tara.ci</p>
+                                <p>support@tara.ci (technique)</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Siège social</h3>
+                                <p>Rue des Entrepreneurs, Zone industrielle</p>
+                                <p>Grand-Bassam, Côte d'Ivoire</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Téléphone</h3>
+                                <p>+225 27 22 45 67 89</p>
+                                <p>Lundi - Vendredi, 8h - 17h (GMT)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h3>Suivez-nous</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                            <a href="#" class="social-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carte -->
+    <section class="contact-map">
+        <div class="container">
+            <h2>Nous trouver</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.123456789012!2d-3.123456789012345!3d5.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMDcnMjQuNCJOIDPCsDA3JzA0LjQiVw!5e0!3m2!1sen!2sci!4v1234567890123!5m2!1sen!2sci" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="contact-faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Questions fréquentes</h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Comment puis-je essayer vos produits ?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Certains de nos produits comme TaraMap sont disponibles en version beta publique sur notre site. Pour TaraOS, nous proposons un programme beta limité - contactez-nous pour en savoir plus. Consultez notre page <a href="/solutions">Solutions</a> pour les liens vers les démos et versions d'essai.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Proposez-vous des formations ou ateliers ?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Oui, nous organisons régulièrement des formations et ateliers à travers l'Afrique, notamment dans le cadre de notre programme TARA Academy. Abonnez-vous à notre newsletter ou suivez-nous sur les réseaux sociaux pour être informé des prochains événements.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Comment contribuer à vos projets open source ?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tous nos projets open source sont hébergés sur GitHub. Visitez notre <a href="https://github.com/tara-tech" target="_blank">organisation GitHub</a> pour voir les projets disponibles et les guidelines pour contribuer. Nous avons également une communauté active sur Discord où vous pouvez poser vos questions.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Recherchez-vous des partenariats avec des universités ou ONG ?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolument ! Nous sommes toujours ouverts aux partenariats avec des institutions académiques et organisations à but non lucratif qui partagent notre vision. Contactez notre équipe Partenariats à partnerships@tara.ci pour discuter des possibilités.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TARA</h3>
+                    <p>Solutions numériques innovantes pour l'Afrique de demain.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="join.html">Carrières</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> hello@tara.ci</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Grand-Bassam, Côte d'Ivoire</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Restez informé de nos dernières innovations</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit" class="btn btn-primary">S'abonner</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TARA. Tous droits réservés. | Made with ❤️ in Côte d'Ivoire</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
